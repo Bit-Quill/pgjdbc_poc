@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2022, PostgreSQL Global Development Group
+ * See the LICENSE file in the project root for more information.
+ */
+
 package org.postgresql.util;
 
 import org.checkerframework.checker.nullness.qual.EnsuresNonNullIf;
@@ -5,7 +10,13 @@ import org.checkerframework.checker.nullness.qual.Nullable;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.LinkedHashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 import java.util.stream.Collectors;

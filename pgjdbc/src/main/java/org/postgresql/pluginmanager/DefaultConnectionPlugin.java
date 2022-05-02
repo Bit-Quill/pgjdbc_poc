@@ -6,7 +6,6 @@
 package org.postgresql.pluginmanager;
 
 import org.postgresql.core.BaseConnection;
-import org.postgresql.pluginmanager.efm.IConnectionProvider;
 import org.postgresql.util.HostSpec;
 
 import java.lang.reflect.InvocationTargetException;

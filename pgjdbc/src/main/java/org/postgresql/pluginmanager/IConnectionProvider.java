@@ -3,7 +3,7 @@
  * See the LICENSE file in the project root for more information.
  */
 
-package org.postgresql.pluginmanager.efm;
+package org.postgresql.pluginmanager;
 
 import org.postgresql.core.BaseConnection;
 import org.postgresql.util.HostSpec;

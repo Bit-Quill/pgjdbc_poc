@@ -7,6 +7,7 @@ package org.postgresql.pluginmanager.efm;
 
 import org.postgresql.PGProperty;
 import org.postgresql.core.BaseConnection;
+import org.postgresql.pluginmanager.IConnectionProvider;
 import org.postgresql.util.HostSpec;
 
 import org.checkerframework.checker.nullness.qual.Nullable;

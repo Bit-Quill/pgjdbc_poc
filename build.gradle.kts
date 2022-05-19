@@ -182,6 +182,8 @@ allprojects {
             testImplementation("uk.org.webcompere:system-stubs-jupiter")
             testImplementation("org.junit.jupiter:junit-jupiter-params")
             testImplementation("org.hamcrest:hamcrest")
+            testImplementation("org.mockito:mockito-core:4.5.1")
+            testImplementation("org.mockito:mockito-junit-jupiter:4.5.1")
             testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
             if (project.props.bool("junit4", default = true)) {
                 // Allow projects to opt-out of junit dependency, so they can be JUnit5-only
